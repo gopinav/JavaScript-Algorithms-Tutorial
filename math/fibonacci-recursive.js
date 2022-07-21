@@ -1,5 +1,5 @@
 function recursiveFibonacci(n) {
-  if (n < 2) {
+  if ([0, 1].includes(n)) {
     return n
   }
   return recursiveFibonacci(n - 1) + recursiveFibonacci(n - 2)
